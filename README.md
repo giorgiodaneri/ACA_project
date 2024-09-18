@@ -45,7 +45,9 @@ to represent it in the memory cell. This reasoning does not
 directly apply to the Colonnade architecture, which is fully
 digital. It is therefore more complex to understand the factors
 that contribute to energy consumption in the case of this
-architecture. Please read the report for more details.
+architecture. Please read the report for more details. Below is an example of the weight distribution of Llama2 linear layer.
+
+<img src="https://github.com/user-attachments/assets/107f2bd7-1404-4ce8-b250-06ea7ef35d1f" alt="histogram_llama2" width="500"/>
 
 # Mapping the workload on CiMLoop
 We used a Cimloop function to perform a full DNN exploration of some workloads corresponding to both older
@@ -57,4 +59,9 @@ ergy consumption in femto Joules per MAC operation (1e-15
 J/MAC). The input sequence is 10 tokens, thus very short. In
 order to produce the histograms, we limited the output length
 to a single token so that each layer is visited exactly once. The output is a distribution of energy consumption for each layer of the workload, which can be visualized through a matplotlib bar chart.  
+Below you can see the energy consumption of the Phi-3 workload mapped on the NeuRRAM architecture.
+
+![phi3_wan_arch](https://github.com/user-attachments/assets/ecd74ec5-9ad6-41f4-b0e5-1184bc9f98af)
+
+
 
