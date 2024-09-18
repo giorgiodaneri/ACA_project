@@ -1,5 +1,5 @@
-# Project for Advanced Computer Architectures
-Carried out by Giorgio Daneri and Jacopo Palumbo as part of the High Performance Computing Engineering master degree at Politecnico di Milano.
+# Mapping Transformers to CiM architectures
+Project carried out by Giorgio Daneri and Jacopo Palumbo as part of the Advanced Computer Architectures course of the High Performance Computing Engineering master degree at Politecnico di Milano.
 1. Giorgio Daneri (giorgio.daneri@mail.polimi.it)
 2. Jacopo Palumbo (jacopo.palumbo@mail.polimi.it)
 
